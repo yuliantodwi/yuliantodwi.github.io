@@ -27,11 +27,8 @@
   font-size: 1.5em; /* Ukurannya lebih besar dari font biasa */
   margin-right: 0.5em; /* Tambahkan jarak antara icon dan teks */
 }
-
 .jumbotron {
-  padding-top: 7rem;
-}
-.jumbotron {
+  padding-top: 5rem;
   background-image: linear-gradient(to right, #ff9966, #ff5e62); /* Tambahkan gradient sebagai latar belakang */
   border-radius: 10px; /* Tambahkan border radius */
   transition: all 0.5s ease; /* Tambahkan efek transisi saat di-hover */
@@ -67,7 +64,7 @@
 }
 
 #project {
-  background-color: #83a1b3;
+  background-image: linear-gradient(to right, #ff9966, #ff5e62); /* Tambahkan gradient sebagai latar belakang */
   padding-top: 7rem;
 }
 
