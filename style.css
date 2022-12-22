@@ -1,11 +1,170 @@
-.jumbotron {
-  padding-top: 7rem;
-  background-color: #83a1b3;
-}
-#project {
-  background-color: #83a1b3;
+.navbar {
+  font-family: "Montserrat", sans-serif; /* Gunakan font Montserrat */
+  background-image: linear-gradient(to right, #ff9966, #ff5e62); /* Tambahkan gradient sebagai latar belakang */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Tambahkan box shadow */
+  border-radius: 10px; /* Tambahkan border radius */
+  transition: all 0.5s ease; /* Tambahkan efek transisi saat di-hover */
 }
 
-section {
-  padding-top: 5rem;
+.navbar:hover {
+  transform: scale(1.1); /* Tambahkan animasi saat di-hover */
+}
+
+.navbar a {
+  font-size: 1.5em; /* Ukurannya lebih besar dari font biasa */
+  transition: all 0.5s ease; /* Tambahkan efek transisi saat di-hover */
+}
+
+.navbar a:hover {
+  color: #ffffff; /* Tambahkan animasi saat di-hover */
+}
+
+.navbar .navbar-brand {
+  font-size: 2em; /* Ukurannya lebih besar dari font biasa */
+}
+
+.navbar .nav-item i {
+  font-size: 1.5em; /* Ukurannya lebih besar dari font biasa */
+  margin-right: 0.5em; /* Tambahkan jarak antara icon dan teks */
+}
+
+.jumbotron {
+  padding-top: 7rem;
+}
+.jumbotron {
+  background-image: linear-gradient(to right, #ff9966, #ff5e62); /* Tambahkan gradient sebagai latar belakang */
+  border-radius: 10px; /* Tambahkan border radius */
+  transition: all 0.5s ease; /* Tambahkan efek transisi saat di-hover */
+}
+
+.jumbotron h1 {
+  font-family: "Montserrat", sans-serif; /* Gunakan font Montserrat */
+  font-size: 3em; /* Ukurannya lebih besar dari font biasa */
+}
+
+.jumbotron p {
+  font-family: "Roboto", sans-serif; /* Gunakan font Roboto */
+  font-size: 1.5em; /* Ukurannya lebih besar dari font biasa */
+}
+
+.jumbotron .img-thumbnail:hover {
+  transform: rotate(360deg); /* Tambahkan animasi saat di-hover */
+}
+#about {
+  padding-top: 8rem;
+  border-radius: 10px; /* Tambahkan border radius */
+  transition: all 0.5s ease; /* Tambahkan efek transisi saat di-hover */
+}
+
+#about h2 {
+  font-family: "Montserrat", sans-serif; /* Gunakan font Montserrat */
+  font-size: 3em; /* Ukurannya lebih besar dari font biasa */
+}
+
+#about p {
+  font-family: "Roboto", sans-serif; /* Gunakan font Roboto */
+  font-size: 1.5em; /* Ukurannya lebih besar dari font biasa */
+}
+
+#project {
+  background-color: #83a1b3;
+  padding-top: 7rem;
+}
+
+#project h2 {
+  font-family: "Montserrat", sans-serif; /* Use the Montserrat font */
+  font-size: 3em; /* Make the font size larger than normal */
+  text-align: center; /* Center the heading text */
+  margin-bottom: 3rem; /* Add a margin below the heading */
+}
+
+#project .card {
+  border-radius: 10px; /* Add a border radius */
+}
+
+#project .card:hover {
+  transform: scale(1.1); /* Add a hover animation */
+}
+
+#project .card-img-top {
+  height: 200px; /* Set the height of the image */
+  object-fit: cover; /* Make the image cover the entire card */
+  transition: all 0.5s ease; /* Add a transition effect on hover */
+}
+
+#project .card-img-top:hover {
+  transform: rotate(360deg); /* Add a hover animation */
+}
+
+#project .card-text {
+  font-family: "Roboto", sans-serif; /* Use the Roboto font */
+  font-size: 1.5em; /* Make the font size larger than normal */
+}
+#contact {
+  padding-bottom: 10rem;
+}
+
+#contact h2 {
+  font-family: "Montserrat", sans-serif; /* Use the Montserrat font */
+  font-size: 3em; /* Make the font size larger than normal */
+  text-align: center; /* Center the title text */
+  margin-bottom: 3rem; /* Add margin below the title */
+}
+
+#contact form {
+  /* Add some styling to the form */
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .form-label {
+  /* Style the form labels */
+  font-family: "Roboto", sans-serif; /* Use the Roboto font */
+  font-size: 1.5em; /* Make the font size larger than normal */
+}
+
+#contact .form-control {
+  /* Style the form input fields */
+  border-radius: 10px; /* Add a border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a box shadow */
+}
+
+#contact .btn-primary {
+  /* Style the submit button */
+  background-color: #ff5e62; /* Change the background color */
+  border-radius: 10px; /* Add a border radius */
+  font-family: "Montserrat", sans-serif; /* Use the Montserrat font */
+  font-size: 1.5em; /* Make the font size larger than normal */
+  transition: all 0.5s ease; /* Add a transition effect when hovering */
+}
+#footer {
+  padding-top: 1rem;
+  height: 50px; /* Tinggi elemen #footer */
+  font-family: "Montserrat", sans-serif; /* Gunakan font Montserrat */
+  background-image: linear-gradient(to right, #ff9966, #ff5e62); /* Tambahkan gradient sebagai latar belakang */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Tambahkan box shadow */
+  border-radius: 10px; /* Tambahkan border radius */
+  transition: all 0.5s ease; /* Tambahkan efek transisi saat di-hover */
+}
+
+#footer:hover {
+  transform: scale(1.1); /* Tambahkan animasi saat di-hover */
+}
+
+#footer a {
+  font-size: 1.5em; /* Ukurannya lebih besar dari font biasa */
+  transition: all 0.5s ease; /* Tambahkan efek transisi saat di-hover */
+}
+
+#footer a:hover {
+  color: #ffffff; /* Tambahkan animasi saat di-hover */
+}
+
+#footer .navbar-brand {
+  font-size: 2em; /* Ukurannya lebih besar dari font biasa */
+}
+
+#footer .nav-item i {
+  font-size: 1.5em; /* Ukurannya lebih besar dari font biasa */
+  margin-right: 0.5em; /* Tambahkan jarak antara icon dan teks */
 }
