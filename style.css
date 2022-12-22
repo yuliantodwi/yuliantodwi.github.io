@@ -49,6 +49,7 @@
 }
 #about {
   padding-top: 8rem;
+  padding-bottom: 23rem;
   border-radius: 10px; /* Tambahkan border radius */
   transition: all 0.5s ease; /* Tambahkan efek transisi saat di-hover */
 }
